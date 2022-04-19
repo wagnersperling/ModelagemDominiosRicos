@@ -47,3 +47,5 @@ namespace NerdStoreCatalogo.Data
 //install-package Microsoft.EntityFrameworkCore -v 2.2.6
 //install-package Microsoft.EntityFrameworkCore.Design -v 2.2.6
 //install-package Microsoft.EntityFrameworkCore.sqlserver -v 2.2.6
+
+//add-Migration Initial -Context CatalogoContext
