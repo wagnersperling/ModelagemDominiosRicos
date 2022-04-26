@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using NerdStore.Catalogo.Application.ViewModels;
 
-namespace NerdStoreCatalogo.Application.Services
+namespace NerdStore.Catalogo.Application.Services
 {
     public interface IProdutoAppService : IDisposable
     {

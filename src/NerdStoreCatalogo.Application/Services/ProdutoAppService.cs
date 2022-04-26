@@ -2,7 +2,6 @@
 using NerdStore.Catalogo.Application.ViewModels;
 using NerdStore.Catalogo.Domain;
 using NerdStore.Core.DomainObjects;
-using NerdStoreCatalogo.Application.Services;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
