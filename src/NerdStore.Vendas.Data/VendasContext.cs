@@ -1,11 +1,11 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using NerdStore.Core.Comunication.Mediator;
 using NerdStore.Core.Data;
 using NerdStore.Core.Messages;
 using NerdStore.Vendas.Domain;
 using System;
 using System.Linq;
 using System.Threading.Tasks;
-using NerdStore.Core.Bus;
 
 namespace NerdStore.Vendas.Data
 {
