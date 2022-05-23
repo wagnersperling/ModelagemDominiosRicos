@@ -1,11 +1,11 @@
-﻿using NerdStore.Vendas.Domain;
+﻿using NerdStore.Vendas.Application.Queries.ViewModels;
+using NerdStore.Vendas.Domain;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
-namespace NerdStore.Vendas.Application.Queries.ViewModels
+namespace NerdStore.Vendas.Application.Queries
 {
     public class PedidoQueries : IPedidoQueries
     {

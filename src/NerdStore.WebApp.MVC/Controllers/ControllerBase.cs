@@ -34,7 +34,7 @@ namespace NerdStore.WebApp.MVC.Controllers
 
         protected void NotificarErro(string codigo, string mensagem)
         {
-            _mediatorHandler.PublicarNotificaticao(new DomainNotification(codigo, mensagem));
+            _mediatorHandler.PublicarNotificacao(new DomainNotification(codigo, mensagem));
         }
     }
 }
