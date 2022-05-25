@@ -18,8 +18,8 @@ namespace NerdStore.Vendas.Application.Commands
 
         public override bool EhValido()
         {
-            validationResult = new RemoverItemPedidoValidation().Validate(this);
-            return validationResult.IsValid;
+            ValidationResult = new RemoverItemPedidoValidation().Validate(this);
+            return ValidationResult.IsValid;
         }
     }
     public class RemoverItemPedidoValidation : AbstractValidator<RemoverItemPedidoCommand>

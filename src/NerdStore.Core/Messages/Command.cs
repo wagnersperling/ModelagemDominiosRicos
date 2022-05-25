@@ -8,7 +8,7 @@ namespace NerdStore.Core.Messages
     {
         public DateTime Timestamp { get; private set; }
 
-        public ValidationResult validationResult { get; set; }
+        public ValidationResult ValidationResult { get; set; }
 
         protected Command()
         {
